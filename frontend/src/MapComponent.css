@@ -1,0 +1,42 @@
+/* Statusleiste */
+.status-bar {
+  padding: 10px 20px;
+  background: #e3f2fd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  color: #1976d2;
+}
+
+.refresh-button {
+  background: none;
+  border: 2px solid #1976d2;
+  color: #1976d2;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.refresh-button:hover {
+  background: #1976d2;
+  color: white;
+}
+
+/* Popup-Styling */
+.popup {
+  min-width: 200px;
+  text-align: center;
+}
+
+.popup h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.fill-level {
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}

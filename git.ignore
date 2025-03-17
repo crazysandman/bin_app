@@ -1,0 +1,17 @@
+# Node.js & React
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Python & Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Docker
+docker-compose.override.yml
+.docker/
+*.log
